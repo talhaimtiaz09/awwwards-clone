@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Talha Imtaiz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class=" relative overflow-x-hidden bg-gray-50">
+    <style>
+      @font-face {
+        font-family: "Rockit";
+        src: url(Rockit.ttf);
+      }
+      #hero-title {
+        font-family: Rockit, sans-serif;
+      }
+      body {
+        font-family: "Montserrat";
+      }
+      #hero {
+        /* box-shadow: inset 0 0 100px #c62626; */
+      }
+      .cursor {
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateX(-50%) translateY(-50%);
+        mix-blend-mode: difference;
+      }
+    </style>
+
+    <nav
+      class="flex gap-x-2 md:gap-x-4 list-none text-black px-10 sm:px-20 py-10 items-center text-sm sm:mx-auto sm:justify-center"
+    >
+      <span class="font-extrabold text-xl  mr-5 md:mr-10"> W . </span>
+      <li class="hidden md:block">Explore</li>
+      <li class="hidden md:block">Dictory</li>
+      <li class="hidden md:block">Academy</li>
+      <li class="hidden md:block">Conference</li>
+      <li class="hidden md:block">Jobs</li>
+      <li class="hidden md:block">Jobs</li>
+
+      <div class="hidden sm:block">
+        <input
+          class="bg-slate-100 px-4 py-2 rounded-lg"
+          type="text"
+          placeholder="Search by Inspiration"
+        />
+      </div>
+
+      <li  class="hidden md:block">Log In</li>
+      <li  class="hidden md:block">Sign Up</li>
+      <button
+        class="hidden md:block px-6 py-2 border-black transition font-thin text-md text-white rounded-lg border-[0.5px] bg-black hover:bg-white hover:text-black"
+      >
+        Be Pro
+      </button>
+      <button
+        class="hidden md:block px-6 py-2 border-black transition font-thin text-md rounded-lg border-[0.5px] bg-white hover:bg-black hover:text-white"
+      >
+        Submit Website
+      </button>
+    </nav>
+
+    <!-- sticky nav  -->
+<div class="hidden sm:block w-fit h-fit p-2 mx-auto bg-opacity-50 rounded-lg fixed bottom-5 h-20 z-20 bg-black  left-1/2 -translate-x-1/2 text-white">
+<div class="flex items-center">
+    <p class="mx-1 p-3 text-center rounded-md text-lg font-bold text-white bg-black">W .</p>
+<div class="flex items-center bg-black bg-opacity-60 rounded-lg p-1">
+
+    <p class="m-1 border-[0.1px] border-gray-400 hover:bg-white hover:text-black transition p-2 rounded-md font-thin text-sm">Nominees</p>
+    <p class="m-1 border-[0.1px] border-gray-400 hover:bg-white hover:text-black transition p-2 rounded-md font-thin text-sm">Courses</p>
+    <p class="m-1 border-[0.1px] border-gray-400 hover:bg-white hover:text-black transition p-2 rounded-md font-thin text-sm">Collections</p>
+    <p class="m-1 border-[0.1px] border-gray-400 hover:bg-white hover:text-black transition p-2 rounded-md font-thin text-sm">Market</p>
+</div>
+<p class="mx-1 p-3 text-center rounded-md text-sm font-light  text-black bg-white">Visit Stod.</p>
+    
+</div>
+    
+</div>
+
+    <!-- site of the day -->
+    <div class="flex flex-col md:flex-row gap-y-4 mx-auto w-fit font-light items-center my-20">
+      <p>Site of the Day</p>
+      <span
+        class="font-bold border-[0.5px] rounded-lg border-black px-2 py-1 mx-4"
+        >May 24,2024</span
+      >
+      <p>Score 7.25 of 10</p>
+    </div>
+
+    <!-- hero -->
+    <div class="mx-auto text-center w-fit my-32">
+      <h1 class="font-extrabold text-7xl my-5">ANAI</h1>
+      <p class="font-thick relative">
+        Garden Eight
+        <spanm class="font-thin text-xs absolute top-0 -right-8">PRO</spanm>
+      </p>
+      <hr class="bg-slate-500 h-[2px] w-full" />
+    </div>
+    <section class="flex justify-center gap-x-2 md:gap-x-4 my-40 mx-auto w-1/3 md:w-full">
+      <img
+        class="-mb-20 hover:opacity-70 hover:scale-[1.05] transition duration-500"
+        src="https://cdn.pixabay.com/photo/2023/11/23/09/01/pineapple-8407451_640.jpg"
+        alt=""
+      />
+      <img
+        class="-mt-20 hover:opacity-70 hover:scale-[1.05] transition duration-500"
+        src="https://cdn.pixabay.com/photo/2021/08/08/10/03/miss-vietnam-6530447_640.jpg"
+        alt=""
+      />
+      <img
+        class="-mb-20 hover:opacity-70 hover:scale-[1.05] transition duration-500"
+        src="https://cdn.pixabay.com/photo/2023/05/16/14/07/bridge-7997690_640.jpg"
+        alt=""
+      />
+    </section>
+
+    <!-- Nominees -->
+    <div>
+      <!-- content  -->
+      <div class="flex flex-col justify-center gap-y-8 items-center mt-64" >
+        <p>Latest</p>
+        <h1 class="font-extrabold text-3xl md:text-7xl">NOMINEES</h1>
+        <p>Vote for the Latest Website on <span class="block text-center">awwwards</span></p>
+
+      </div>
+      <div class="flex gap-4 w-11/12 mx-auto justify-center items-center my-10 flex-col md:flex-row">
+        <div>
+            <img class="transition duration-300 rounded-lg hover:opacity-70 hover:scale-[0.98] shadow-lg " src="https://cdn.pixabay.com/photo/2022/08/21/21/24/colours-7402147_640.jpg" alt="">
+            <p class="font-bold mt-5 text-xl">Oscar Pico — Portfolio©24 <span class="font-thin mx-2 text-sm">By</span> <div class="font text-lg relative w-fit">Oscar Pico
+                <hr class="w-full h-[2px] rounded-full bg-slate-500 absolute -bottom-1 ">
+            </div></p>
+
+        </div>  
+
+          <div>
+              <img class="transition duration-300 rounded-lg hover:opacity-70 hover:scale-[0.98] shadow-lg " src="https://cdn.pixabay.com/photo/2022/04/06/13/58/woman-7115624_640.jpg" alt="">
+              <p class="font-bold mt-5 text-xl">Retro Demo Machine <span class="font-thin mx-2 text-sm">By</span> <div class="font text-lg relative w-fit">Gal Shaya
+                <hr class="w-full h-[2px] rounded-full bg-slate-500 absolute -bottom-1 ">
+            </div></p>
+
+          </div>
+          <div>
+              <img class="transition duration-300 rounded-lg hover:opacity-70 hover:scale-[0.98] shadow-lg " src="https://cdn.pixabay.com/photo/2022/08/07/00/16/dogs-7369533_640.jpg" alt="">
+              <p class="font-bold mt-5 text-xl">Slosh Seltzer<span class="font-thin mx-2 text-sm">By</span> <div class="font text-lg relative w-fit">Butternmax
+                <hr class="w-full h-[2px] rounded-full bg-slate-500 absolute -bottom-1 ">
+            </div></p>
+
+          </div>
+      </div>
+    </div>
+
+<!-- Recent winners -->
+
+
+<div class="w-11/12 mx-auto mt-40">
+
+    <p class="font-thin my-4">Winners</p>
+    <h1 class="font-bold text-4xl ">Recent Sites <span class="block">of the Day.</span></h1>
+
+    <div class="grid grid-cols-2 lg:grid-cols-3 auto-rows-auto gap-4 gap-y-10 my-10  ">
+        <div >
+            <img class="lg:w-full transition duration-300 rounded-lg hover:opacity-70 hover:scale-[0.98] shadow-lg " src="https://cdn.pixabay.com/photo/2020/06/05/03/35/fashion-5261318_640.jpg" alt="">
+            <p class="font-bold mt-5 text-xl">Oscar Pico — Portfolio©24 <span class="font-thin mx-2 text-sm">By</span> <div class="font text-lg relative w-fit">Oscar Pico
+                <hr class="w-full h-[2px] rounded-full bg-slate-500 absolute -bottom-1 ">
+            </div></p>
+
+        </div>  
+
+          <div >
+              <img class="lg:w-full transition duration-300 rounded-lg hover:opacity-70 hover:scale-[0.98] shadow-lg " src="https://cdn.pixabay.com/photo/2021/08/31/11/58/woman-6588614_640.jpg" alt="">
+              <p class="font-bold mt-5 text-xl">Retro Demo Machine <span class="font-thin mx-2 text-sm">By</span> <div class="font text-lg relative w-fit">Gal Shaya
+                <hr class="w-full h-[2px] rounded-full bg-slate-500 absolute -bottom-1 ">
+            </div></p>
+
+          </div>
+          <div >
+              <img class="lg:w-full transition duration-300 rounded-lg hover:opacity-70 hover:scale-[0.98] shadow-lg " src="https://cdn.pixabay.com/photo/2020/03/06/11/15/woman-4906810_640.jpg" alt="">
+              <p class="font-bold mt-5 text-xl">Slosh Seltzer<span class="font-thin mx-2 text-sm">By</span> <div class="font text-lg relative w-fit">Butternmax
+                <hr class="w-full h-[2px] rounded-full bg-slate-500 absolute -bottom-1 ">
+            </div></p>
+
+          </div>
+        <div >
+            <img class="lg:w-full transition duration-300 rounded-lg hover:opacity-70 hover:scale-[0.98] shadow-lg " src="https://cdn.pixabay.com/photo/2020/09/06/05/16/f-5548047_1280.jpg" alt="">
+            <p class="font-bold mt-5 text-xl">Oscar Pico — Portfolio©24 <span class="font-thin mx-2 text-sm">By</span> <div class="font text-lg relative w-fit">Oscar Pico
+                <hr class="w-full h-[2px] rounded-full bg-slate-500 absolute -bottom-1 ">
+            </div></p>
+
+        </div>  
+
+          <div >
+              <img class="lg:w-full transition duration-300 rounded-lg hover:opacity-70 hover:scale-[0.98] shadow-lg " src="https://cdn.pixabay.com/photo/2016/09/16/22/15/illustration-1675269_640.png" alt="">
+              <p class="font-bold mt-5 text-xl">Retro Demo Machine <span class="font-thin mx-2 text-sm">By</span> <div class="font text-lg relative w-fit">Gal Shaya
+                <hr class="w-full h-[2px] rounded-full bg-slate-500 absolute -bottom-1 ">
+            </div></p>
+
+          </div>
+          <div >
+              <img class="lg:w-full transition duration-300 rounded-lg hover:opacity-70 hover:scale-[0.98] shadow-lg " src="https://cdn.pixabay.com/photo/2016/11/22/19/10/architecture-1850092_640.jpg" alt="">
+              <p class="font-bold mt-5 text-xl">Slosh Seltzer<span class="font-thin mx-2 text-sm">By</span> <div class="font text-lg relative w-fit">Butternmax
+                <hr class="w-full h-[2px] rounded-full bg-slate-500 absolute -bottom-1 ">
+            </div></p>
+
+          </div>
+      </div>
+
+
+</div>
+
+<p class="text-center mt-20 font-light text-lg tracking-wider">This clone of <span class="font-bold">www.awwwards.com </span></p>
+
+
+
+<div class="w-11/12 mx-auto mt-40">
+
+    <p class="font-thin my-4">Academy</p>
+    <h1 class="font-bold text-4xl ">Learn from the <span class="block">best instructors.</span></h1>
+<!-- coursel  -->
+    <div class="flex gap-4 justify-center mt-20 flex-col md:flex-row">
+
+        <div class="rounded-xl shadow-md overflow-hidden ">
+            <img src="https://media.istockphoto.com/id/515264678/photo/portrait-of-confident-caucasian-male-teacher-in-classroom.jpg?s=612x612&w=0&k=20&c=XxZPrrrC7XsjzLZN1TqKnp6k4OozMxLSv_zrvCDjP7I=" alt="">
+        <div class="gap-y-6 flex  flex-col p-10">
+
+            <h1 class="w-5/6 font-bold text-xl mb-5">Web Design with Figma: Building Striking Compositon</h1>
+            <hr class="h-[1px] bg-slate-400">
+            <div class="flex items-center justify-between w-5/6 text-sm">
+                
+                <p class="font-bold">instructor</p>
+                <p class="font-light">Pablo Stanley</p>
+            </div>
+            <hr class="h-[1px] bg-slate-400">
+            <p class="font-bold text-sm">Score <span class="font-light">4/5</span></p>
+            <div class="relative">
+                <hr class="w-32 bg-slate-300 h-[4px] rounded-full absolute top-0 left-0">
+                <hr class="w-24 bg-yellow-400 h-[4px] rounded-full absolute top-0 left-0">
+            </div>
+        </div>
+        </div>
+
+        <div class="rounded-xl shadow-md overflow-hidden ">
+            <img src="https://media.istockphoto.com/id/1410336912/photo/happy-teacher-and-schoolgirl-giving-high-five-during-class-at-school.jpg?s=612x612&w=0&k=20&c=waX0PDd_PLqbyY6yBkIj-AL_7RD0J0hzjLHi1S7f8Eo=" alt="">
+        <div class="gap-y-6 flex  flex-col p-10">
+
+            <h1 class="w-5/6 font-bold text-xl mb-5">Design System for Website using Figma Like a PRO</h1>
+            <hr class="h-[1px] bg-slate-400">
+            <div class="flex items-center justify-between w-5/6 text-sm">
+                
+                <p class="font-bold">instructor</p>
+                <p class="font-light">Pablo Stanley</p>
+            </div>
+            <hr class="h-[1px] bg-slate-400">
+            <p class="font-bold text-sm">Score <span class="font-light">4/5</span></p>
+            <div class="relative">
+                <hr class="w-32 bg-slate-300 h-[4px] rounded-full absolute top-0 left-0">
+                <hr class="w-24 bg-yellow-400 h-[4px] rounded-full absolute top-0 left-0">
+            </div>
+        </div>
+        </div>
+        <div class="rounded-xl shadow-md overflow-hidden ">
+            <img src="https://media.istockphoto.com/id/1783743772/photo/female-speaker-giving-a-presentation-during-business-seminar-at-convention-center.webp?b=1&s=612x612&w=0&k=20&c=gVq6NcjeeC8IPrhbbJHzsmLxDSZcY39P3FCMLCszxk0=" alt="">
+        <div class="gap-y-6 flex  flex-col p-10">
+
+            <h1 class="w-5/6 font-bold text-xl mb-5">Website Creation with Webflow: Build a Site without code</h1>
+            <hr class="h-[1px] bg-slate-400">
+            <div class="flex items-center justify-between w-5/6 text-sm">
+                
+                <p class="font-bold">instructor</p>
+                <p class="font-light">Pablo Stanley</p>
+            </div>
+            <hr class="h-[1px] bg-slate-400">
+            <p class="font-bold text-sm">Score <span class="font-light">4/5</span></p>
+            <div class="relative">
+                <hr class="w-32 bg-slate-300 h-[4px] rounded-full absolute top-0 left-0">
+                <hr class="w-24 bg-yellow-400 h-[4px] rounded-full absolute top-0 left-0">
+            </div>
+        </div>
+        </div>
+
+    </div>
+</div>
+    <!-- cursor -->
+    <!-- <div class="cursor"></div> -->
+
+
+
+
+
+
+
+
+<section class="container mx-auto px-4 py-64">
+    <div class="text-center mb-16">
+        <h1 class="text-3xl md:text-7xl font-bold relative">W.CREATORS <span class="text-3xl absolute">🤨</span></h1>
+        <p class="text-lg mt-4">Active creators in your country.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="relative bg-black  text-white px-8  rounded-lg  py-20 bg-opacity-85 transition duration-500 hover:bg-opacity-100 hover:scale-[1.05]">
+            <div class="relative z-10">
+                <div class="flex justify-between items-center mb-4">
+                    <div class="flex items-center">
+                        <img  src="https://media.istockphoto.com/id/636761588/photo/used-brushes-on-an-artists-palette-of-colorful-oil-paint.jpg?s=612x612&w=0&k=20&c=38YQxVJVWnNfvGtlb7AXMx_ItyHZMEdmWenNkWNQ91g=" alt="Logo 1" class="h-10 w-10 rounded-full">
+                        <div class="ml-4">
+                            <p class="text-sm">International</p>
+                            <h2 class="text-2xl font-bold">KOBU Agency</h2>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 text-center px-2 py-1 rounded">
+                        <p>Works</p>
+                        <p class="text-xl font-bold">11</p>
+                    </div>
+                </div>
+                <img class="my-14 rounded-md" src="https://media.istockphoto.com/id/636761588/photo/used-brushes-on-an-artists-palette-of-colorful-oil-paint.jpg?s=612x612&w=0&k=20&c=38YQxVJVWnNfvGtlb7AXMx_ItyHZMEdmWenNkWNQ91g=" alt="Project Image 1" class="w-full h-40 object-cover rounded-lg mb-4">
+                <p class="text-sm mb-2">kobu.agency</p>
+                <p class="text-sm">8 awards</p>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="relative bg-black text-white p-8 rounded-lg  py-20 bg-opacity-85 transition duration-500 hover:bg-opacity-100 hover:scale-[1.05]">
+            <div class="relative z-10">
+                <div class="flex justify-between items-center mb-4">
+                    <div class="flex items-center">
+                        <img src="https://media.istockphoto.com/id/1271186251/vector/abstract-geometric-vector-pattern-with-transition-effect.jpg?s=612x612&w=0&k=20&c=RE8VHEEl6kMuK6iIFHx9PyKFig4ux7bvwO6MQ_als6I=" alt="Logo 2" class="h-10 w-10 rounded-full">
+                        <div class="ml-4">
+                            <p class="text-sm">International</p>
+                            <h2 class="text-2xl font-bold">SPECIAL OFFER</h2>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 text-center px-2 py-1 rounded">
+                        <p>Works</p>
+                        <p class="text-xl font-bold">28</p>
+                    </div>
+                </div>
+                <img class="my-14 rounded-md" src="https://media.istockphoto.com/id/1271186251/vector/abstract-geometric-vector-pattern-with-transition-effect.jpg?s=612x612&w=0&k=20&c=RE8VHEEl6kMuK6iIFHx9PyKFig4ux7bvwO6MQ_als6I=" alt="Project Image 2" class="w-full h-40 object-cover rounded-lg mb-4">
+                <p class="text-sm mb-2">specialoffer.inc</p>
+                <p class="text-sm">24 awards</p>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="relative bg-black text-white p-8 rounded-lg  py-20 bg-opacity-85 transition duration-500 hover:bg-opacity-100 hover:scale-[1.05]">
+            <div class="relative z-10">
+                <div class="flex justify-between items-center mb-4">
+                    <div class="flex items-center">
+                        <img src="https://media.istockphoto.com/id/1183183791/photo/talented-female-artist-works-on-abstract-oil-painting-using-paint-brush-she-creates-modern.jpg?s=612x612&w=0&k=20&c=QrR6QQxioyM6zT5qPpKxr9KFz2VRrhVO3rXJ8fIfswY=" alt="Logo 3" class="h-10 w-10 rounded-full">
+                        <div class="ml-4">
+                            <p class="text-sm">International</p>
+                            <h2 class="text-2xl font-bold">Trellis</h2>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 text-center px-2 py-1 rounded">
+                        <p>Works</p>
+                        <p class="text-xl font-bold">25</p>
+                    </div>
+                </div>
+                <img class="my-14 rounded-md" src="https://media.istockphoto.com/id/1183183791/photo/talented-female-artist-works-on-abstract-oil-painting-using-paint-brush-she-creates-modern.jpg?s=612x612&w=0&k=20&c=QrR6QQxioyM6zT5qPpKxr9KFz2VRrhVO3rXJ8fIfswY=" alt="Project Image 3" class="w-full h-40 object-cover rounded-lg mb-4">
+                <p class="text-sm mb-2">trellis.co</p>
+                <p class="text-sm">7 awards</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+    <section class="container mx-auto px-4 py-16">
+        <div class="mb-20">
+
+            <h1 class="font-bold text-3xl md:text-6xl text-center ">Get Started</h1>
+            <p class="w-1/2 text-center mx-auto my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, amet.Lorem et consectetur adipisicing elit. Nobis, tempore.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="relative bg-black text-white py-32 px-10 opacity-80 hover:opacity-100 transition duration-500 rounded-lg" style="background-image: url('https://media.istockphoto.com/id/154926058/photo/close-up-of-jazz-singer-singing-into-a-microphone.jpg?s=612x612&w=0&k=20&c=8bDvi-gOUT-Od4mFo21hMILEhwbqjf3bozTaxCWNfIM='); background-size: cover; background-position: center;">
+                <div class="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+                <div class="relative z-10">
+                    <h3 class="text-sm uppercase">Share your work</h3>
+                    <h2 class="text-3xl font-bold mt-2">Submit your website for visibility and recognition</h2>
+                    <button class="mt-4 px-4 py-2 border border-white rounded hover:bg-white hover:text-black">Submit Website</button>
+                </div>
+                <div class="absolute bottom-5 left-10 text-xs">
+                    <p>Got questions? Read our <a href="#" class="underline">FAQs</a></p>
+                </div>
+            </div>
+            <div class="relative bg-black text-white py-32 px-10 opacity-80 hover:opacity-100 transition duration-500 rounded-lg" style="background-image: url('https://media.istockphoto.com/id/1265034078/photo/black-and-white-portrait-of-woman-and-broken-self-image-mirror.jpg?s=612x612&w=0&k=20&c=1DkVVW6B0tbuXmve56mP51X3p-_X632RyWCArw7wJZk='); background-size: cover; background-position: center;">
+                <div class="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+                <div class="relative z-10">
+                    <h3 class="text-sm uppercase">Be a member</h3>
+                    <h2 class="text-3xl font-bold mt-2">Get access to special pro features</h2>
+                    <button class="mt-4 px-4 py-2 border border-white rounded hover:bg-white hover:text-black">Be Pro</button>
+                </div>
+                <div class="absolute bottom-5 left-10 text-xs">
+                    <p>Got questions? Read our <a href="#" class="underline">FAQs</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="bg-white py-8 mx-auto">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row justify-between items-center">
+                <div class="mb-8 lg:mb-0">
+                    <h2 class="text-2xl font-bold">W.</h2>
+                </div>
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center lg:text-left">
+                    <div>
+                        <ul>
+                            <li class="font-bold">Websites</li>
+                            <li class="mt-2">Collections</li>
+                            <li class="mt-2">Elements</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="font-bold">Academy</li>
+                            <li class="mt-2">Jobs</li>
+                            <li class="mt-2">Market</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="font-bold">Directory</li>
+                            <li class="mt-2">Conferences</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="font-bold">FAQs</li>
+                            <li class="mt-2">About Us</li>
+                            <li class="mt-2">Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-8 lg:mt-0">
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <span>Next Conferences</span>
+                        <p class="font-bold">Valencia & NYC</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-8 border-t-2 border-gray-300">
+            <div class="flex flex-col lg:flex-row justify-between items-center text-gray-600 text-sm">
+                <div class="flex space-x-4 mb-4 lg:mb-0">
+                    <a href="#" class="hover:underline">Cookies Policy</a>
+                    <a href="#" class="hover:underline">Legal Terms</a>
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                </div>
+                <div class="flex flex-col md:flex-row items-center space-x-4">
+                    <span>Connect:</span>
+                    <a href="#" class="hover:underline">Instagram</a>
+                    <a href="#" class="hover:underline">LinkedIn</a>
+                    <a href="#" class="hover:underline">Twitter</a>
+                    <a href="#" class="hover:underline">Facebook</a>
+                    <a href="#" class="hover:underline">YouTube</a>
+                    <a href="#" class="hover:underline">TikTok</a>
+                    <a href="#" class="hover:underline">Pinterest</a>
+                </div>
+                <div class="mt-4 lg:mt-0">
+                    <span>Sponsored by </span><a href="#" class="font-bold hover:underline">Webflow</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
